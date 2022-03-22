@@ -1,0 +1,16 @@
+@use './assets/partials/colors';
+@use './assets/partials/typography';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.app-dark{
+  background: colors.$dark-background;
+  color: white;
+}
+.app-light{
+  background: colors.$light-background;
+  color: black;
+}
+

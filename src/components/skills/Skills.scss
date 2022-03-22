@@ -1,0 +1,258 @@
+@use '../../assets/partials/colors';
+@use '../../assets/partials/typography';
+@import '../../assets/partials/breakpoints';
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+//DARK CONTAINER
+.dk-skills-container{
+    padding-bottom: 10rem;
+}
+//LIGHT CONTAINER
+.lt-skills-container{
+    padding-bottom: 10rem;
+}
+// Skills 
+.dk-skills-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dk-skills-header h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3.5rem;
+    @include small {
+        font-size: 3.75rem;
+    }
+    @include med{
+        font-size: 4rem;
+    }
+    @include large{
+        font-size: 4.25rem;
+    }
+    @include x-large{
+        font-size: 4.5rem;
+    }
+    @include xx-large{
+        font-size: 4.75rem;
+    }
+}
+.lt-skills-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.lt-skills-header h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3.5rem;
+    @include small {
+        font-size: 3.75rem;
+    }
+    @include med{
+        font-size: 4rem;
+    }
+    @include large{
+        font-size: 4.25rem;
+    }
+    @include x-large{
+        font-size: 4.5rem;
+    }
+    @include xx-large{
+        font-size: 4.75rem;
+    }
+}
+//SKILLS LIST
+.lt-skills-intro{
+    display: flex;
+    margin: 1.75rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 0 1px 2px rgba(0, 0, 0, 0.685);
+    background: colors.$pure-purple;
+    border-radius: 10px;
+    @include small {
+        margin: 2.75rem;
+    }
+    @include med{
+        margin: 3.75rem;
+    }
+    @include large{
+        margin: 4.75rem;
+    }
+    @include x-large{
+        margin: 5.75rem;
+    }
+    @include xx-large{
+        margin: 6.75rem;
+    }
+}
+.dk-skills-intro{
+    display: flex;
+    margin: 1.75rem;
+    justify-content: center;
+    align-items: center;
+    background: colors.$deep-red;
+    box-shadow: 2px 0 1px 2px rgba(255, 253, 253, 0.527);
+    border-radius: 10px;
+    @include small {
+        margin: 2.75rem;
+    }
+    @include med{
+        margin: 3.75rem;
+    }
+    @include large{
+        margin: 4.75rem;
+    }
+    @include x-large{
+        margin: 5.75rem;
+    }
+    @include xx-large{
+        margin: 6.75rem;
+    }
+}
+.lt-skills-list{
+    list-style: none;
+    font-size: 1.15rem;
+    @include small {
+        font-size: 1.5rem;
+    }
+    @include med{
+        font-size: 1.75rem;
+    }
+    @include large{
+        font-size: 2rem;
+    }
+    @include x-large{
+        font-size: 2.25rem;
+    }
+    @include xx-large{
+        font-size: 2.75rem;
+    }
+}
+.dk-skills-list{
+    list-style: none;
+    font-size: 1.15rem;
+    @include small {
+        font-size: 1.5rem;
+    }
+    @include med{
+        font-size: 1.75rem;
+    }
+    @include large{
+        font-size: 2rem;
+    }
+    @include x-large{
+        font-size: 2.25rem;
+    }
+    @include xx-large{
+        font-size: 2.75rem;
+    }
+}
+//Images
+.skills-img-row-one{
+    margin: 0.5rem;
+}
+.skills-img-row-two{
+    margin: 0.5rem;
+}
+.skills-img-row-three{
+    margin: 0.5rem;
+}
+.skills-img-row-four{
+    margin: 0.5rem;
+}
+.dk-skills-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: 1px solid white;
+    box-shadow: 2px 0 1px 1px rgba(255, 253, 253, 0.527);
+    background: rgb(231, 136, 136);
+    border-radius: 8px;
+    height: 7rem;
+    &:hover{
+        cursor: pointer;
+    }
+    @include small {
+        height: 9rem;
+    }
+    @include med{
+        height: 12rem;
+    }
+    @include large{
+        height: 15rem;
+    }
+    @include x-large{
+        height: 18rem;
+    }
+    @include xx-large{
+        height: 21rem;
+    }
+}
+.lt-skills-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 2px 1px 2px rgba(0, 0, 0, 0.685);
+    background: rgb(10, 163, 235);
+    border-radius: 8px;
+    height: 7rem;
+    &:hover{
+        cursor: pointer;
+    }
+    @include small {
+        height: 9rem;
+    }
+    @include med{
+        height: 12rem;
+    }
+    @include large{
+        height: 15rem;
+    }
+    @include x-large{
+        height: 18rem;
+    }
+    @include xx-large{
+        height: 21rem;
+    }
+}
+.dk-image{
+    width: 4.5rem; 
+    @include small {
+        width: 6.5rem;
+    }
+    @include med{
+        width: 8.5rem;
+    }
+    @include large{
+        width: 10.5rem;
+    }
+    @include x-large{
+        width: 12.5rem;
+    }
+    @include xx-large{
+        width: 14.5rem;
+    }
+}
+.lt-image{
+    width: 4.5rem;
+    @include small {
+        width: 6.5rem;
+    }
+    @include med{
+        width: 8.5rem;
+    }
+    @include large{
+        width: 10.5rem;
+    }
+    @include x-large{
+        width: 12.5rem;
+    }
+    @include xx-large{
+        width: 14.5rem;
+    }
+}

@@ -1,0 +1,441 @@
+@use '../../assets/partials/colors';
+@use '../../assets/partials/typography';
+@import '../../assets/partials/breakpoints';
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.dk-about-me-container{
+    padding-bottom: 10rem;
+}
+.lt-about-me-container{
+    padding-bottom: 10rem;
+}
+//About Header
+.dk-about-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dk-about-header h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3.5rem;
+    @include small {
+        font-size: 3.75rem;
+    }
+    @include med{
+        font-size: 4rem;
+    }
+    @include large{
+        font-size: 4.25rem;
+    }
+    @include x-large{
+        font-size: 4.5rem;
+    }
+    @include xx-large{
+        font-size: 4.75rem;
+    }
+}
+.lt-about-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.lt-about-header h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 3.5rem;
+    @include small {
+        font-size: 3.75rem;
+    }
+    @include med{
+        font-size: 4rem;
+    }
+    @include large{
+        font-size: 4.25rem;
+    }
+    @include x-large{
+        font-size: 4.5rem;
+    }
+    @include xx-large{
+        font-size: 4.75rem;
+    }
+}
+//Section Zero
+.dk-about-section-zero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.dk-about-section-zero h2{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    @include small {
+        font-size: 2.75rem;
+    }
+    @include med{
+        font-size: 3rem;
+    }
+    @include large{
+        font-size: 3.25rem;
+    }
+    @include x-large{
+        font-size: 3.5rem;
+    }
+    @include xx-large{
+        font-size: 3.75rem;
+    }
+}
+.lt-about-section-zero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.lt-about-section-zero h2{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    @include small {
+        font-size: 2.75rem;
+    }
+    @include med{
+        font-size: 3rem;
+    }
+    @include large{
+        font-size: 3.25rem;
+    }
+    @include x-large{
+        font-size: 3.5rem;
+    }
+    @include xx-large{
+        font-size: 3.75rem;
+    }
+}
+
+//Section One
+.dk-about-section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: colors.$redline;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: 2px 0 1px 1px rgba(255, 253, 253, 0.527);
+    margin-top: 1rem;
+}
+.dk-about-section-one p{
+    font-size: 0.9rem;
+    @include small {
+        font-size: 1.2rem;
+    }
+    @include med{
+        font-size: 1.5rem;
+    }
+    @include large{
+        font-size: 1.7rem;
+    }
+    @include x-large{
+        font-size: 1.8rem;
+    }
+    @include xx-large{
+        font-size: 1.8rem;
+    }
+}
+.lt-about-section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2px;
+    border-radius: 5px;
+    background: colors.$blue-popsicle;
+    box-shadow: 2px 0 1px 1px rgba(0, 0, 0, 0.685);
+}
+.lt-about-section-one p{
+    font-size: 0.9rem;
+    @include small {
+        font-size: 1.2rem;
+    }
+    @include med{
+        font-size: 1.5rem;
+    }
+    @include large{
+        font-size: 1.7rem;
+    }
+    @include x-large{
+        font-size: 1.8rem;
+    }
+    @include xx-large{
+        font-size: 1.8rem;
+    }
+}
+
+//Section Two
+.dk-about-section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: colors.$redline;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: 2px 0 1px 1px rgba(255, 253, 253, 0.527);
+    margin-top: 1rem;
+}
+.dk-about-section-two p{
+    font-size: 0.9rem;
+    @include small {
+        font-size: 1.2rem;
+    }
+    @include med{
+        font-size: 1.5rem;
+    }
+    @include large{
+        font-size: 1.7rem;
+    }
+    @include x-large{
+        font-size: 1.8rem;
+    }
+    @include xx-large{
+        font-size: 1.8rem;
+    }
+}
+.lt-about-section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2px;
+    border-radius: 5px;
+    background: colors.$blue-popsicle;
+    box-shadow: 2px 0 1px 1px rgba(0, 0, 0, 0.685);
+}
+.lt-about-section-two p{
+    font-size: 0.9rem;
+    @include small {
+        font-size: 1.2rem;
+    }
+    @include med{
+        font-size: 1.5rem;
+    }
+    @include large{
+        font-size: 1.7rem;
+    }
+    @include x-large{
+        font-size: 1.8rem;
+    }
+    @include xx-large{
+        font-size: 1.8rem;
+    }
+}
+//Section Three
+.dk-about-section-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.dk-about-section-three h2{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    @include small {
+        font-size: 2.75rem;
+    }
+    @include med{
+        font-size: 3rem;
+    }
+    @include large{
+        font-size: 3.25rem;
+    }
+    @include x-large{
+        font-size: 3.5rem;
+    }
+    @include xx-large{
+        font-size: 3.75rem;
+    }
+}
+.lt-about-section-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.lt-about-section-three h2{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    @include small {
+        font-size: 2.75rem;
+    }
+    @include med{
+        font-size: 3rem;
+    }
+    @include large{
+        font-size: 3.25rem;
+    }
+    @include x-large{
+        font-size: 3.5rem;
+    }
+    @include xx-large{
+        font-size: 3.75rem;
+    }
+}
+
+//Section Four
+.dk-about-section-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: colors.$redline;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 0 1px 1px rgba(255, 253, 253, 0.527);
+    margin-top: 1rem;
+}
+.dk-about-section-four p{
+    font-size: 0.9rem;
+    @include small {
+        font-size: 1.2rem;
+    }
+    @include med{
+        font-size: 1.5rem;
+    }
+    @include large{
+        font-size: 1.7rem;
+    }
+    @include x-large{
+        font-size: 1.8rem;
+    }
+    @include xx-large{
+        font-size: 1.8rem;
+    }
+}
+.lt-about-section-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    background: colors.$blue-popsicle;
+    box-shadow: 2px 0 1px 1px rgba(0, 0, 0, 0.685);
+}
+.lt-about-section-four p{
+    font-size: 1.2rem;
+    @include small {
+        font-size: 1.5rem;
+    }
+    @include med{
+        font-size: 1.7rem;
+    }
+    @include large{
+        font-size: 1.8rem;
+    }
+    @include x-large{
+        font-size: 1.8rem;
+    }
+    @include xx-large{
+        font-size: 1.8rem;
+    }
+}
+
+//Images
+.nerdy-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.gaming-setup{
+    width: 18rem;
+    border-radius: 8px;
+    @include small {
+        width: 21rem;
+    }
+    @include med{
+        width: 24rem;
+    }
+    @include large{
+        width: 27rem; 
+    }
+    @include x-large{
+        width: 30rem;
+    }
+    @include xx-large{
+        width: 33rem;
+    }
+}
+.music-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.drummer{
+    width: 7rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+    @include small {
+        width: 10rem;
+        height: 17rem;
+    }
+    @include med{
+        width: 13rem;
+        height: 19rem;
+    }
+    @include large{
+        width: 16rem;
+        height: 21rem;
+    }
+    @include x-large{
+        width: 19rem;
+        height: 24rem;
+    }
+    @include xx-large{
+        width: 21rem;
+        height: 27rem;
+    }
+}
+.team-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.sports-image{
+    width: 7rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 8px;
+    @include small {
+        width: 10rem;
+        height: 17rem;
+    }
+    @include med{
+        width: 13rem;
+        height: 19rem;
+    }
+    @include large{
+        width: 16rem;
+        height: 21rem;
+    }
+    @include x-large{
+        width: 19rem;
+        height: 24rem;
+    }
+    @include xx-large{
+        width: 21rem;
+        height: 27rem;
+    }
+}
