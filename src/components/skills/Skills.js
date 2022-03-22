@@ -27,15 +27,16 @@ function Skills({ isDark }) {
                     <div className={isDark === true ? 'dk-skills-intro' : 'lt-skills-intro'}>
                         <ul className={isDark === true ? 'dk-skills-list' : 'lt-skills-list'}>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Professional Googler</li>
-                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Rest API</li>
+                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Restful API's</li>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>GitHub</li>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Mobile First Responsive Design</li>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Stack Overflow</li>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>VS Code</li>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>GitHub</li>
-                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Wire Framing</li>
+                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>JSON</li>
+                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>jQuery</li>
                             <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Big O Notation</li>
-                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Microsoft Office</li>
+                            <li className={isDark === true ? 'dk-skills-item' : 'lt-skills-item'}>Object Oriented Programming</li>
                         </ul>
                     </div>
                 </Col>
