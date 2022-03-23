@@ -5,21 +5,21 @@
 // COLLAPSIBLE DROPDOWN
 #lt-drop{
     color: black;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     @include small {
-        font-size: 1.2rem;
-    }
-    @include med{
-        font-size: 1.2rem;
-    }
-    @include large{
-        font-size: 1.4rem;
-    }
-    @include x-large{
         font-size: 1.6rem;
     }
-    @include xx-large{
+    @include med{
         font-size: 1.8rem;
+    }
+    @include large{
+        font-size: 2rem;
+    }
+    @include x-large{
+        font-size: 2.2rem;
+    }
+    @include xx-large{
+        font-size: 2.4rem;
     }
     &:hover{
         color: rgb(0, 81, 255);
@@ -27,21 +27,21 @@
 }
 #dk-drop{
     color: rgb(255, 115, 115);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     @include small {
-        font-size: 1.2rem;
-    }
-    @include med{
-        font-size: 1.2rem;
-    }
-    @include large{
-        font-size: 1.4rem;
-    }
-    @include x-large{
         font-size: 1.6rem;
     }
-    @include xx-large{
+    @include med{
         font-size: 1.8rem;
+    }
+    @include large{
+        font-size: 2rem;
+    }
+    @include x-large{
+        font-size: 2.2rem;
+    }
+    @include xx-large{
+        font-size: 2.4rem;
     }
     &:hover{
         color: red;
@@ -121,7 +121,7 @@
 // Toggle Buttons
 .moon{
     color: aqua;
-    font-size: 1.85rem;
+    font-size: 2rem;
     width: 2.5rem;
     background: none;
     outline: none;
@@ -131,28 +131,28 @@
     }
     @include med{
         margin-left: 13rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         width: 3rem;
     }
     @include large{
         margin-left: 24rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: 3.5rem;
     }
     @include x-large{
         margin-left: 32rem;
-        font-size: 3rem;
+        font-size: 3.5rem;
         width: 4rem;
     }
     @include xx-large{
         margin-left: 40rem;
-        font-size: 3.5rem;
+        font-size: 4rem;
         width: 4rem;
     }
 }
 .sunny{
     color: orange;
-    font-size: 1.85rem;
+    font-size: 2rem;
     width: 2.5rem;
     background: none;
     outline: none;
@@ -162,22 +162,22 @@
     }
     @include med{
         margin-left: 13rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         width: 3rem;
     }
     @include large{
         margin-left: 24rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: 3.5rem;
     }
     @include x-large{
         margin-left: 32rem;
-        font-size: 3rem;
+        font-size: 3.5rem;
         width: 4rem;
     }
     @include xx-large{
         margin-left: 40rem;
-        font-size: 3.5rem;
+        font-size: 4rem;
         width: 4rem;
     }
 }
@@ -190,21 +190,21 @@
 }
 .dk-nav-bar-container h1{
     color: rgb(255, 115, 115);
-    font-size: 1rem;
+    font-size: 1.4rem;
     @include small {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     @include med{
-        font-size: 1.4rem;
-    }
-    @include large{
         font-size: 1.6rem;
     }
+    @include large{
+        font-size: 2rem;
+    }
     @include x-large{
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
     @include xx-large{
-        font-size: 2rem;
+        font-size: 2.8rem;
     }
     &:hover{
         color: red;
@@ -218,22 +218,22 @@
     border-bottom: 2px solid black;
 }
 .lt-nav-bar-container h1{
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: black;
     @include small {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     @include med{
-        font-size: 1.4rem;
-    }
-    @include large{
         font-size: 1.6rem;
     }
+    @include large{
+        font-size: 2rem;
+    }
     @include x-large{
-        font-size: 1.8rem;
+        font-size: 2.4rem;
     }
     @include xx-large{
-        font-size: 2rem;
+        font-size: 2.8rem;
     }
     &:hover{
         color: rgb(0, 81, 255);

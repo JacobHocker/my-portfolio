@@ -13,11 +13,11 @@ function Home({ isDark }) {
                             <h1>Hocker</h1>
                         </div>
                     </Col>
+                </Row>  
+                <Row>  
                     <Col className={isDark === true ? "dk-row-one-col-two" : "lt-row-one-col-two"}>
                         <div className={isDark === true ? "dk-home-info" : "lt-home-info"}>
-                            <h1>Full Stack</h1>
-                            <h1>Software</h1>
-                            <h1>Engineer</h1> 
+                            <h1>Full Stack Software Engineer</h1>
                         </div>
                     </Col>
                 </Row> 
@@ -28,7 +28,7 @@ function Home({ isDark }) {
                         </div>
                     </Col>
                 </Row> 
-                <Row className="home-row-three">
+                {/* <Row className="home-row-three">
                     <Col className={isDark === true ? "dk-row-three" : "lt-row-three"}>
                         <div className={isDark === true ? "dk-card-container" : "lt-card-container"}>
                             <Card className={isDark === true ? "dk-card" : "lt-card"} >
@@ -55,7 +55,7 @@ function Home({ isDark }) {
                             </Card>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
                 <Row className="home-row-four">
                     <Col className={isDark === true ? "dk-row-four-col-one" : "lt-row-four-col-one"}>
                         <div className={isDark === true ? "dk-intro-container" : "lt-intro-container"}>

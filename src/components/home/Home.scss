@@ -25,21 +25,21 @@
 }
 .dk-home-header h1{
     font-family: 'Russo One', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     @include small {
-        font-size: 3.75rem;
-    }
-    @include med{
-        font-size: 4rem;
-    }
-    @include large{
         font-size: 4.25rem;
     }
-    @include x-large{
+    @include med{
         font-size: 4.5rem;
     }
-    @include xx-large{
+    @include large{
         font-size: 4.75rem;
+    }
+    @include x-large{
+        font-size: 5rem;
+    }
+    @include xx-large{
+        font-size: 5.25rem;
     }
 }
 .lt-home-header{
@@ -50,44 +50,41 @@
 }
 .lt-home-header h1{
     font-family: 'Russo One', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     @include small {
-        font-size: 3.75rem;
-    }
-    @include med{
-        font-size: 4rem;
-    }
-    @include large{
         font-size: 4.25rem;
     }
-    @include x-large{
+    @include med{
         font-size: 4.5rem;
     }
-    @include xx-large{
+    @include large{
         font-size: 4.75rem;
     }
-}
-// Col TWO Dark & Light
-.lt-row-one-col-two{
-    margin-bottom: 1rem;
-    @include x-small{
-        margin-top: 3rem;
+    @include x-large{
+        font-size: 5rem;
+    }
+    @include xx-large{
+        font-size: 5.25rem;
     }
 }
+
 .lt-home-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 0 1px 2px rgba(0, 0, 0, 0.685);
-    background: colors.$pure-purple;
-    border-radius: 10px;
+    background: rgb(161, 161, 161);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .lt-home-info h1{
-    font-family: 'Russo One', sans-serif;
+    padding-left: 1rem;
     font-size: 2rem;
     @include small {
         font-size: 2.25rem;
+        padding-left: 0;
     }
     @include med{
         font-size: 2.5rem;
@@ -102,27 +99,25 @@
         font-size: 3.25rem;
     }
 }
-.dk-row-one-col-two{
-    margin-bottom: 1rem;
-    @include x-small{
-        margin-top: 3rem;
-    }
-}
+
 .dk-home-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: colors.$deep-red;
-    box-shadow: 2px 0 1px 2px rgba(255, 253, 253, 0.527);
-    border-radius: 10px;
+    background: rgb(100, 100, 100);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
     
 }
 .dk-home-info h1{
-    font-family: 'Russo One', sans-serif;
+    padding-left: 1rem;
     font-size: 2rem;
     @include small {
         font-size: 2.25rem;
+        padding-left: 0;
     }
     @include med{
         font-size: 2.5rem;
@@ -145,152 +140,8 @@
 .code-picture{
     width: 100%;
     border-radius: 8px;
-    @include med{
-        width: 43rem;
-    }
-    @include large{
-        width: 53rem;
-    }
-    @include x-large{
-        width: 90%;
-    }
-    @include xx-large{
-        width: 90%;
-    }
 }
-//CARD SECTION
-.dk-card-container{
-    margin-top: 2rem;
-}
-.lt-card-container{
-    margin-top: 2rem;
-}
-.dk-card h1{
-    font-size: 1.5rem;
-    @include small {
-        font-size: 1.7rem;
-    }
-    @include med{
-        font-size: 2rem;
-    }
-    @include large{
-        font-size: 2.2rem;
-    }
-    @include x-large{
-        font-size: 2.5rem;
-    }
-    @include xx-large{
-        font-size: 2.7rem;
-    }
-}
-.dk-card p{
-    font-size: 0.9rem;
-    @include small {
-        font-size: 1.2rem;
-    }
-    @include med{
-        font-size: 1.5rem;
-    }
-    @include large{
-        font-size: 1.7rem;
-    }
-    @include x-large{
-        font-size: 1.8rem;
-    }
-    @include xx-large{
-        font-size: 1.8rem;
-    }
-}
-.dk-card{
-    color: white;
-    background: colors.$redline;
-    box-shadow: 2px 0 1px 1px rgba(255, 253, 253, 0.527);
-    width: 8rem;
-    height: 18rem;
-    @include small {
-        width: 12rem;
-        height: 20rem;
-    }
-    @include med{
-        width: 16rem;
-        height: 22rem;
-    }
-    @include large{
-        width: 20rem;
-        height: 24rem;
-    }
-    @include x-large{
-        width: 24rem;
-        height: 26rem;
-    }
-    @include xx-large{
-        width: 28rem;
-        height: 26rem;
-    }
-}
-.lt-card h1{
-    font-size: 1.5rem;
-    @include small {
-        font-size: 1.7rem;
-    }
-    @include med{
-        font-size: 2rem;
-    }
-    @include large{
-        font-size: 2.2rem;
-    }
-    @include x-large{
-        font-size: 2.5rem;
-    }
-    @include xx-large{
-        font-size: 2.7rem;
-    }
-}
-.lt-card p{
-    font-size: 0.9rem;
-    @include small {
-        font-size: 1.2rem;
-    }
-    @include med{
-        font-size: 1.5rem;
-    }
-    @include large{
-        font-size: 1.7rem;
-    }
-    @include x-large{
-        font-size: 1.8rem;
-    }
-    @include xx-large{
-        font-size: 1.8rem;
-    }
-}
-.lt-card{
-    color: black;
-    background: colors.$blue-popsicle;
-    box-shadow: 2px 0 1px 1px rgba(0, 0, 0, 0.685);
-    width: 8rem;
-    height: 18rem;
-    @include small {
-        width: 12rem;
-        height: 20rem;
-    }
-    @include med{
-        width: 16rem;
-        height: 22rem;
-    }
-    @include large{
-        width: 20rem;
-        height: 24rem;
-    }
-    @include x-large{
-        width: 24rem;
-        height: 26rem;
-    }
-    @include xx-large{
-        width: 28rem;
-        height: 26rem;
-    }
-}
+
 .dk-intro-container{
     display: flex;
     flex-direction: column;
@@ -352,6 +203,7 @@
 }
 .dk-intro-body p{
     font-size: 0.9rem;
+    
     @include small {
         font-size: 1.2rem;
     }
@@ -370,6 +222,7 @@
 }
 .lt-intro-body p{
     font-size: 0.9rem;
+    padding-left: 1.25rem;
     @include small {
         font-size: 1.2rem;
     }
