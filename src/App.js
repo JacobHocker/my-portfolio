@@ -23,7 +23,7 @@ function App() {
   
   return (
     <div className={isDark === true ? 'app-dark' : 'app-light'}>
-      <NavBar onToggleDarkMode={toggleDarkMode} isDark={isDark}/>
+      <NavBar setIsDark={setIsDark} onToggleDarkMode={toggleDarkMode} isDark={isDark}/>
       <Routes>
         <Route path="/" element={<Home isDark={isDark}/>} />
         <Route path='skills' element={<Skills isDark={isDark} />} />
